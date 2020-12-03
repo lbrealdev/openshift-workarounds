@@ -30,7 +30,7 @@ oc apply -f cachefix.yaml
 6 - Watch the pods:
 ```
 watch 'oc get po'
-
+```
 
 Create this file:
 ```
