@@ -4,10 +4,12 @@ Considering the following scenario, that a cluster OCP 4.x is power off and when
 
 ### Troubleshooting
 
-Get events in all namespaces search for reason `LeaderElection`:
+Get events in all namespaces search for reason `LeaderElection`, this event:
 ```
 oc get ev -A | grep LeaderElection
 ```
+
+NOTE: This event occurs every 5 minutes
 
 Get numbers of csr in pending state:
 ```
